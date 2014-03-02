@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.0">
+  <name>EHong Kong 2014</name>
+
+  <wpt lon="114.19048077767138" lat="22.332201343739882">
+    <!-- 
+    <ele>0</ele>
+    -->
+    <name>Kowloon Walled City Park (九龍寨城公園)</name>
+    <!-- http://en.wikipedia.org/wiki/Kowloon_Walled_City -->
+  </wpt>
+
+  <wpt lon="114.21698100273879" lat="22.27567195872341">
+    <name>Japanese Tunnel</name>
+  </wpt>
+
+  <wpt lon="114.15861613457773" lat="22.287376759028746">
+    <name>'Central', Ferry Port</name>
+  </wpt>
+
+  <wpt lon="114.14554841223337" lat="22.275443611060922">
+    <name>Victoria Peak</name>
+    <!-- "
+      Get a stunning view of Hong Kong Island on Victoria Peak atop the giant,
+      wok-shaped Peak Tower!
+    " -->
+  </wpt>
+
+  <wpt lon="113.86142201131281" lat="22.253828321320153">
+    <name>Tai O, Stilt houses</name>
+    <!-- "
+      Traditional heritage
+      Stilt houses in Tai O
+    " -->
+  </wpt>
+
+  <wpt lon="113.90601105397118" lat="22.2544092076149">
+    <name>Po Lin Monastery and the Tien Tan Buddha Statue</name>
+    <!-- "
+      Ngong Ping 360 on Lantau Island is a Buddhist themed park
+      that features Imperial Chinese architecture, interactive shows,
+      demonstrations, restaurants and coffee shops.
+      The highlight of this trip is the longest cable car ride in Hong Kong
+      that affords stunning views.
+      The ride also takes you to the largest outdoor seated Buddha.
+    " -->
+  </wpt>
+
+  <wpt lon="114.0118402928555" lat="22.46704962757973">
+    <name>Hong Kong Wetland Park</name>
+    <!-- "
+    " -->
+  </wpt>
+
+  <wpt lon="114.18337292376843" lat="22.42016589132229">
+    <name>Tai Po Kau Nature Reserve</name>
+    <!-- "
+    " -->
+  </wpt>
+
+  <wpt lon="114.17099328551845" lat="22.44509665758019">
+    <name>Tai Po Market</name>
+    <!-- "
+    " -->
+  </wpt>
+
+  <wpt lon="114.2520857543119" lat="22.22996521763937">
+    <name>Shek O Beach</name>
+    <!-- "
+    popular with many young Hong Kong people.
+    It is away from the bustle of the city but is well served by restaurants and
+    has a good bus service from the north side of the island.
+    The Thai restaurant close to the beach is worth a try.
+    " -->
+  </wpt>
+
+  <wpt lon="114.19648777724827" lat="22.236187096801213">
+    <name>Repulse Bay</name>
+    <!-- "
+    large urban beach on the south side of Hong Kong island.
+    It has recently had money spent on its facilities and
+    will appeal to those who have young children.
+    " -->
+  </wpt>
+
+  <wpt lon="114.15946371261049" lat="22.28505871057032">
+    <name>IFC</name>
+    <!-- "
+    At 415m or 88 stories tall, the IFC is among the World's tallest buildings
+    and home to one of Hong Kong's most prestigious shopping centres.
+    " -->
+  </wpt>
+
+  <wpt lon="114.17178041640979" lat="22.324847366775003">
+    <name>Flower Market</name>
+    <!-- "
+    Follow your nose to the sweet scents of a hundred different varieties of flowers.
+    " -->
+  </wpt>
+
+  <wpt lon="114.16144854728282" lat="22.330821882326656">
+    <name>Apliu Street</name>
+    <!-- "
+    MTR Station Shum Shui Po, this is the place where you can find cheap
+    computer goods, peripherals and accessories.
+    However, this is the worst place to buy a mobile phone, as they tend
+    to be even more dodgy than small stores in Mongkok.
+    " -->
+  </wpt>
+
+  <wpt lon="114.17062706652379" lat="22.308158058327678">
+    <name>Temple Street</name>
+    <!-- "
+     Sold items are the same as in the Ladies Market, but there are more
+     street food vendors, a handful of fortune tellers and a few Chinese
+     opera singers. Illustrated in hundreds of cantonese films,
+     this street is seen as a must by most tourists.
+    " -->
+  </wpt>
+
+
+  <trk>
+    <name>Star Ferry</name>
+    <!-- <number>1</number> -->
+    <trkseg>
+      <trkpt lon="114.17558915322701" lat="22.282393155519184"></trkpt>
+      <trkpt lon="114.16870124048468" lat="22.29371024574968"></trkpt>
+      <trkpt lon="114.16123397058259" lat="22.28705908442533"></trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>World's longest outdoor escalator (?)</name>
+    <trkseg>
+      <trkpt lon="114.15507561866944" lat="22.283653964427618"></trkpt>
+      <trkpt lon="114.15403492157151" lat="22.282492432223027"></trkpt>
+      <trkpt lon="114.15398127738972" lat="22.281936481769925"></trkpt>
+      <trkpt lon="114.15354139511341" lat="22.282055614195844"></trkpt>
+      <trkpt lon="114.15149218741934" lat="22.279950926395372"></trkpt>
+      <trkpt lon="114.15104157630309" lat="22.27991121500003"></trkpt>
+      <trkpt lon="114.15071971122134" lat="22.279504172550677"></trkpt>
+      <trkpt lon="114.15097720329034" lat="22.279265903249918"></trkpt>
+      <trkpt lon="114.15074116890125" lat="22.278789363429677"></trkpt>
+    </trkseg>
+  </trk>
+
+  <trk>
+    <name>KMB Route 270A</name>
+    <!-- "
+     starts from the downtown in Jordan, Kowloon.
+     It goes along Peninsular Kowloon and heads through the New Territories.
+     Then it goes into Sha Tin. Afterwards it goes through Tai Po Road,
+     where you can see many traditional Chinese villages and the scenic
+     Chinese University of Hong Kong. The bus further goes to Tai Po and
+     you can see the traditional Market. After Tai Po, the bus again passes
+     through the countryside and eventually reaches its terminus at
+     Sheung Shui (below Landmark North), which is near the
+     Hong Kong - Shenzhen boundary.
+     The journey takes 80 minutes and costs $13 for the whole journey
+     with a air-conditioned bus.
+     The Hung Hom bound train back to the city can be taken from Sheung Shui.
+    " -->
+    <trkseg>
+      <trkpt lon="114.17172140779455" lat="22.305334127267766"></trkpt>
+      <trkpt lon="114.19443435374261" lat="22.380771514028567"></trkpt>
+      <trkpt lon="114.20014209453052" lat="22.387199962488758"></trkpt>
+      <trkpt lon="114.19666595165296" lat="22.391763186967996"></trkpt>
+      <trkpt lon="114.20331783000621" lat="22.40374589829737"></trkpt>
+      <trkpt lon="114.20992679301762" lat="22.40711832945157"></trkpt>
+      <trkpt lon="114.21095676128462" lat="22.40949881981432"></trkpt>
+      <trkpt lon="114.20971221629944" lat="22.412395028093645"></trkpt>
+      <trkpt lon="114.200270840565" lat="22.41953610558279"></trkpt>
+      <trkpt lon="114.19627971354944" lat="22.419774135175917"></trkpt>
+      <trkpt lon="114.19606513683128" lat="22.421440330904133"></trkpt>
+      <trkpt lon="114.19662303630213" lat="22.422352762949988"></trkpt>
+      <trkpt lon="114.19649429027662" lat="22.42893796426082"></trkpt>
+      <trkpt lon="114.19288940135559" lat="22.4331031411537"></trkpt>
+      <trkpt lon="114.1910011262069" lat="22.433460150500572"></trkpt>
+      <trkpt lon="114.1900140732907" lat="22.432547791456912"></trkpt>
+      <trkpt lon="114.18580836955698" lat="22.432904802231562"></trkpt>
+      <trkpt lon="114.18361968699746" lat="22.434689842328837"></trkpt>
+      <trkpt lon="114.18254680339763" lat="22.437902856642165"></trkpt>
+      <trkpt lon="114.18327636424482" lat="22.439251507147553"></trkpt>
+      <trkpt lon="114.17877025310025" lat="22.442464415825185"></trkpt>
+      <trkpt lon="114.17671031657521" lat="22.443218050296394"></trkpt>
+      <trkpt lon="114.17615241710438" lat="22.44559792174426"></trkpt>
+      <trkpt lon="114.17207545940516" lat="22.44674817830657"></trkpt>
+      <trkpt lon="114.12744350139594" lat="22.502107859356396"></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

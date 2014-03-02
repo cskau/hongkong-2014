@@ -1,0 +1,150 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Hong Kong 2014</title>
+    <style type="text/css">
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#Map {
+  height: 100%;
+  width: 100%;
+}
+
+    </style>
+    <script type="text/javascript" src="http://openlayers.org/dev/OpenLayers.js"></script>
+    <!-- Google Maps API -->
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry&sensor=false"></script>
+    <script>
+      function elevationHandler(callback) {
+        return function(results, status) {
+          if (status == google.maps.ElevationStatus.OK) {
+            callback(results);
+            if (results[0]) {
+              // results[0].elevation;
+            } else {
+              console.error('No results found');
+            }
+          } else {
+            console.error('Elevation service failed due to: ' + status);
+          }
+        };
+      }
+
+      function elevation(lon, lat, callback) {
+        var lonlat = new google.maps.LatLng(lat, lon);
+        var elevator = new google.maps.ElevationService();
+        var positionalRequest = {
+          'locations': [lonlat]
+        };
+        //
+        elevator.getElevationForLocations(
+            positionalRequest,
+            elevationHandler(callback)
+            );
+      }
+
+      function elevationPath(path, callback) {
+        var elevator = new google.maps.ElevationService();
+        var pathRequest = {
+          'path': path,
+          'samples': 256
+        }
+        // Initiate the path request.
+        elevator.getElevationAlongPath(
+            pathRequest,
+            elevationHandler(callback)
+            );
+      }
+    </script>
+    <!-- Google Chart -->
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <!-- MyMap -->
+    <script type="text/javascript" src="js/map.js"></script>
+  </head>
+  <body>
+    <div id="Map"></div>
+
+    <div id="chart_div" style="width: 900px; height: 500px;"></div>
+
+    <script type="text/javascript">
+
+      var lon = 114.0960670203449;
+      var lat = 22.341093084126516;
+      var zoom = 11;
+
+      var myMap = new MyMap();
+
+      var layerOSM = myMap.addOSMLayer();
+
+      var layerCycle = myMap.addCycleLayer();
+
+      myMap.setCenter(lon, lat, zoom);
+
+      var layerMarkers = myMap.addMarkersLayer('USer Marker Layer');
+
+
+      /*  */
+
+
+      OpenLayers.Control.Click = OpenLayers.Class(
+          OpenLayers.Control,
+          {
+            defaultHandlerOptions: {
+                'single': true,
+                'double': false,
+                'pixelTolerance': 0,
+                'stopSingle': false,
+                'stopDouble': false
+            },
+
+            initialize: function(options) {
+                this.handlerOptions = OpenLayers.Util.extend(
+                    {}, this.defaultHandlerOptions
+                );
+                OpenLayers.Control.prototype.initialize.apply(
+                    this, arguments
+                ); 
+                this.handler = new OpenLayers.Handler.Click(
+                    this, {
+                      'click': this.onClick
+                    }, this.handlerOptions
+                );
+            }
+          });
+
+      var control = new OpenLayers.Control.Click({
+          handlerOptions: {
+            "single": true
+          },
+          onClick: function(e) {
+            var lonlat = myMap.map.getLonLatFromViewPortPx(e.xy)
+                .transform(myMap.toProjection, myMap.fromProjection);
+            console.log(
+                '<trkpt lon="' + lonlat.lon + '" lat="' + lonlat.lat + '"></trkpt>');
+            myMap.addMarker(
+                layerMarkers,
+                lonlat.lon,
+                lonlat.lat,
+                'http://openlayers.org/dev/img/marker.png');
+          }
+      });
+      myMap.map.addControl(control);
+
+      control.activate();
+
+
+      /*  */
+
+
+      var hongkongGPX = myMap.addVectorLayer('hongkong', 'gpx/hongkong.gpx');
+
+    </script>
+  </body>
+</html>
