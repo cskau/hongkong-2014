@@ -118,6 +118,120 @@
     " -->
   </wpt>
 
+  <wpt lon="113.92001754944748" lat="22.249488974806845">
+    <name>Lantau peak</name>
+    <!-- "
+    highest point publicly accessible point in Hong Kong.
+    The trail to the peak starts from behind the monastery
+    (follow directions to the Wisdom Path, till you find signs for Lantau trail).
+    It takes about an hour to make it to the peak and the views along the way
+    are well worth it. Make sure you carry enough water and a jacket if it's
+    one of the cooler months as it can get windy.
+    From the Peak you can either hike back to the Buddha or continue on
+    (1.5 hours) to a bus stop that will take you to back to the metro.
+    " -->
+  </wpt>
+
+  <wpt lon="114.20713193122094" lat="22.516211917447755">
+    <name>Nam Chung Country Trail</name>
+    <!-- "
+    " -->
+  </wpt>
+
+
+  <wpt lon="114.16482276622126" lat="22.44888505202924">
+    <name>Fu Shin Street Traditional Bazaar</name>
+    <!-- "
+    " -->
+  </wpt>
+
+
+  <wpt lon="113.95934409798278" lat="22.392085583038668">
+    <name>Castle Peak Monastery</name>
+    <!-- "
+    classed as a Grade I historic building that has been standing for more than
+    1000 years. These historic monuments have stood through the ages in a
+    tranquil woodland area.
+    The striking and picturesque surroundings create an enjoyable view,
+    as well as a solemn ambiance. Upon entering the monastery, you will notice
+    the words "香海名山" (Fragrant Sea and Prestigious Mountain) engraved on
+    the portico. The Tsing Shan Temple is among the three oldest temples in
+    Hong Kong. Inside the temple, there is a main worship hall.
+    Walking up the stairs leading to the hall, you will see
+    "一切有情、同登覺地" (which means Everything on Earth Has Ties and
+    Reaches Nirvana Together).
+    The peaceful environment of this Buddhist temple offers an abiding sense
+    of harmony.
+    " -->
+  </wpt>
+
+
+  <wpt lon="113.98445493879306" lat="22.41988819088205">
+    <name>Miu Fat Buddhist Monastery</name>
+    <!-- "
+    built in 1960 and is one of the best monasteries for visitors to enjoy.
+    " -->
+  </wpt>
+
+
+  <wpt lon="114.14280719463646" lat="22.45665882988042">
+    <name>Lam Tsuen Wishing Square</name>
+    <!-- "
+    The Wishing Tree is an old tree.
+    Traditionally, it is believed that it will bring good luck and fortune.
+    Nowadays, it is a tourist spot for both Westerners and locals.
+    Simply go to Tai Po Market Railway Station and take the green minibus
+    route 25K, or bus 64K to get to the Wishing Tree.
+    Alternatively, you are advised to take a green taxi from Tai Wo
+    Railway Station if you have 4 or 5 people travelling together.
+    " -->
+  </wpt>
+
+
+  <wpt lon="114.18503589336797" lat="22.387333885345775">
+    <name>10,000 Buddhas Monastery (萬佛寺)</name>
+    <!-- "
+    rather garish but enjoyable modern temple dating from the 1950s in fact
+    contains no less than 12,800 Buddhas lining the walls of the main hall.
+    There's also a nine-story pagoda and some smaller temples above the main
+    complex. Half the fun is getting there, the 500-metre path that climbs up
+    the hill is lined with life-sized golden plastic statues of Buddhas in
+    poses ranging from serene to outrageous. 
+    " -->
+  </wpt>
+
+
+  <wpt lon="114.03050846757026" lat="22.444373284668874">
+    <name>Hang Heung (恒香) Cake Shop</name>
+    <!-- "
+    arguably Hong Kong's most famous Chinese bakery and famous among ethnic
+    Chinese worldwide for its Sweetheart cakes (老婆餅).
+    Other products include egg rolls (蛋卷) and almond biscuits (杏仁餅).
+    To get there, take the Light Rail from the Yuen Long MTR station and
+    alight at Tai Tong Road (大棠道) station.
+    " -->
+  </wpt>
+
+
+  <wpt lon="114.27024430933113" lat="22.384119701343984">
+    <name>Sai Kung (西貢)</name>
+    <!-- "
+    If you're looking for an evening out whilst touring in the New Territories,
+    head for Sai Kung (西貢) where you will find a good range of visitor-friendly
+    pubs and restaurants. Sai Kung is rightly famous for its seafood restaurants
+    along the quayside, where you can pick your dinner from an aquarium and have
+    it served any way you like. However, if downing a bucket of bottled beers
+    whilst munching on a plate of crustaceans is not your thing, there is also
+    a fairly good selection of eateries and watering holes to be found in the
+    town centre. Prices here can be reasonable and the cuisine ranges from
+    local to western. Various well-known burger and coffee shops have also found
+    their way to this otherwise secluded part of Hong Kong.
+    " -->
+  </wpt>
+
+
+
+
 
   <trk>
     <name>Star Ferry</name>
